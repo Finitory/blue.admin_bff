@@ -1,0 +1,46 @@
+
+# Git
+.git
+.gitignore
+.gitattributes
+
+# Dependencies and build outputs
+node_modules
+**/node_modules
+dist
+build
+.pnpm-store
+.npm
+
+# Test outputs
+coverage
+reports
+.vitest
+*.tsbuildinfo
+
+# IDE and OS
+.idea
+.vscode
+.DS_Store
+**/.DS_Store
+*.iml
+
+# Local environment and secrets
+.env
+.env.*
+*.local
+config/
+**/*secret*
+**/*credential*
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local archives
+*.zip
+
+# CI and documentation
+Jenkinsfile
+README.md
+mise.toml
